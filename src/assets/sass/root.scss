@@ -21,7 +21,7 @@
         --nav:black ;
 
         /* 13px - 16px */
-        --topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
+        --topperFontSize: clamp(1.4rem, 1.6vw, 1rem);
         /* 31px - 49px */
         --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
         --bodyFontSize: 1.1rem;
@@ -1353,7 +1353,7 @@
 
             .logo {
                 margin-left: 0;
-                height: calc(40 / 16 * 1rem);
+                height: calc(40 / 16 * 2.5rem);
                 text-align: left;
             }
 
