@@ -9,14 +9,14 @@
 /* CodeStitch Root and Helpers */
 @media only screen and (min-width: 0em) {
   :root {
-    --primary: red;
+    --primary: #D3741A;
     --primaryLight: green;
     --secondary: #505B2E;
     --secondaryLight: #001f3f;
     --headerColor: #1a1a1a;
     --bodyTextColor: #4e4b66;
     --bodyTextColorWhite: #fafbfc;
-    --nav:green ;
+    --nav:black ;
     /* 13px - 16px */
     --topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
     /* 31px - 49px */
@@ -45,7 +45,7 @@
     font-weight: 600;
     color: var(--headerColor);
     text-align: inherit;
-    font-family: "Darumadrop One", Arial, sans-serif;
+    font-family: "Oswald", Arial, sans-serif;
     text-transform: uppercase;
   }
   .cs-text {
@@ -158,10 +158,10 @@
   }
   @font-face {
     font-style: normal;
-    font-family: "Darumadrop One";
+    font-family: "Oswald";
     font-weight: 100;
     font-display: swap;
-    src: local(""), url("/assets/fonts/darumadrop-one-v10-latin-regular.woff2") format("woff2"), url("/assets/fonts/darumadrop-one-v10-latin-regular.woff2") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+    src: local(""), url("/assets/fonts/oswald-v53-latin-regular.woff2") format("woff2"), url("/assets/fonts/oswald-v53-latin-regular.woff2") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
   }
   /* roboto-regular - latin */
   @font-face {
@@ -277,27 +277,6 @@
     justify-content: flex-end;
     align-items: center;
     width: 100%;
-  }
-  #cs-navigation .cs-logo {
-    z-index: 10;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto 0 0;
-    height: 100%;
-    max-width: 9.125rem;
-    width: 40%;
-    /* prevents padding from affecting height and width */
-    box-sizing: border-box;
-    padding: 0;
-  }
-  #cs-navigation .cs-logo img {
-    height: 100%;
-    width: 100%;
-    /* ensures the image never overflows the container. It stays contained within it's width and height and expands to fill it then stops once it reaches an edge */
-    object-fit: contain;
-    /* places the image to the left edge of the parent */
-    object-position: left;
   }
   #cs-navigation .cs-toggle {
     display: flex;

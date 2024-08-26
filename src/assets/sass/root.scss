@@ -10,7 +10,7 @@
 @media only screen and (min-width: 0em) {
     // Website colors
     :root {
-        --primary: red;
+        --primary: #D3741A;
         --primaryLight: green;
         --secondary: #505B2E;
         --secondaryLight: #001f3f;
@@ -18,7 +18,7 @@
         --bodyTextColor: #4e4b66;
         --bodyTextColorWhite: #fafbfc;
 
-        --nav:green ;
+        --nav:black ;
 
         /* 13px - 16px */
         --topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
@@ -52,7 +52,7 @@
         font-weight: 600;
         color: var(--headerColor);
         text-align: inherit;
-        font-family: "Darumadrop One", Arial, sans-serif;
+        font-family: "Oswald", Arial, sans-serif;
         text-transform: uppercase;
         
     }
@@ -192,13 +192,13 @@
 
     @font-face {
         font-style: normal;
-        font-family: "Darumadrop One";
+        font-family:'Oswald';
         font-weight: 100;
         font-display: swap;
         src: local(""),
-            url("/assets/fonts/darumadrop-one-v10-latin-regular.woff2") format("woff2"),
+            url("/assets/fonts/oswald-v53-latin-regular.woff2") format("woff2"),
             /* Chrome 26+, Opera 23+, Firefox 39+ */
-                url("/assets/fonts/darumadrop-one-v10-latin-regular.woff2")
+                url("/assets/fonts/oswald-v53-latin-regular.woff2")
                 format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
     }
 
@@ -356,28 +356,7 @@
             width: 100%;
         }
 
-        .cs-logo {
-            z-index: 10;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            margin: 0 auto 0 0;
-            height: 100%;
-            max-width: calc(146 / 16 * 1rem);
-            width: 40%;
-            /* prevents padding from affecting height and width */
-            box-sizing: border-box;
-            padding: 0;
-
-            img {
-                height: 100%;
-                width: 100%;
-                /* ensures the image never overflows the container. It stays contained within it's width and height and expands to fill it then stops once it reaches an edge */
-                object-fit: contain;
-                /* places the image to the left edge of the parent */
-                object-position: left;
-            }
-        }
+       
 
         .cs-toggle {
             display: flex;

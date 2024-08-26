@@ -83,6 +83,7 @@
   #services-1627 .cs-link {
     text-decoration: none;
     height: 100%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -179,6 +180,7 @@
   #services-1627 .cs-picture {
     /* 240px - 420px */
     height: clamp(15rem, 33vw, 26.25rem);
+    
   }
 }
                                 
@@ -188,72 +190,27 @@
     <div class="cs-container">
         <div class="cs-content">
             <div class="cs-flex">
-                <span class="cs-topper">Our Services</span>
-                <h2 class="cs-title">Starts at $35 per hour, no hidden fees</h2>
+                <span class="cs-topper">Our Expert Services</span>
+                <h2 class="cs-title">
+                  Free estimates & hourly rates available depending on job</h2>
             </div>
             <p class="cs-text">
-              For all your household needs, including moving, painting, junk removal, general labor and lawn service, give us a call at 248-818-1130. We provide free quotes for all services.             </p>
-        </div>                  
+              With years of experience and certifications, we offer a range of services to meet your needs:</p>        </div>                  
         <ul class="cs-card-group">
-            <li class="cs-item">
-                <a href="tel:{{client.phoneForTel}}" class="cs-link">
-                    <picture class="cs-picture">
-                        <!--Mobile Image-->
-                        <source media="(max-width: 600px)" srcset="/assets/images/service1.jpeg">
-                        <!--Tablet and above Image-->
-                        <source media="(min-width: 601px)" srcset="/assets/images/service1.jpeg">
-                        <img loading="lazy" decoding="async" src="/assets/images/service1.jpeg" alt="room" width="413" height="420">
-                    </picture>
-                    <h3 class="cs-title">Mowing</h3>
-                    <p class="cs-item-text">
-                      Our team of hardworking rabbits will take care of it for you. Sit back, relax, and enjoy your beautifully trimmed lawn! 🌿🐇
-                    </p>
-                    <span class="cs-fake-link">
-                        Get Started
-                        <img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/gold-chevron-right.svg" alt="" width="20" height="20" loading="lazy" decoding="async" aria-hidden="true">
-                    </span>
-                </a>
-            </li>
-            
-
-
-            <li class="cs-item">
-              <a href="tel:{{client.phoneForTel}}" class="cs-link">
-                  <picture class="cs-picture">
-                      <!--Mobile Image-->
-                      <source media="(max-width: 600px)" srcset="/assets/images/service2.jpeg">
-                      <!--Tablet and above Image-->
-                      <source media="(min-width: 601px)" srcset="/assets/images/service2.jpeg">
-                      <img loading="lazy" decoding="async" src="/assets/images/service2.jpeg" alt="room" width="413" height="420">
-                  </picture>
-                  <h3 class="cs-title">Mulching</h3>
-                  <p class="cs-item-text">
-                  Instal fresh new mulch beds to give your outdoor space a new look! For an unbeatable price, we construct flower and mulch beds. If interested, please call or text 248-818-1130
-                  to receive a free quote.
-                  </p>
-                  <span class="cs-fake-link">
-                      Get Started
-                      <img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/gold-chevron-right.svg" alt="" width="20" height="20" loading="lazy" decoding="async" aria-hidden="true">
-                  </span>
-              </a>
-          </li>
-
-
-
           <li class="cs-item">
             <a href="tel:{{client.phoneForTel}}" class="cs-link">
                 <picture class="cs-picture">
                     <!--Mobile Image-->
-                    <source media="(max-width: 600px)" srcset="/assets/images/service3.jpeg">
+                    <source media="(max-width: 600px)" srcset="/assets/images/furniture.jpg">
                     <!--Tablet and above Image-->
-                    <source media="(min-width: 601px)" srcset="/assets/images/service3.jpeg">
-                    <img loading="lazy" decoding="async" src="/assets/images/service3.jpeg" alt="room" width="413" height="420">
+                    <source media="(min-width: 601px)" srcset="/assets/images/furniture.jpg">
+                    <img loading="lazy" decoding="async" src="/assets/images/furniture.jpg" alt="room" width="413" height="420">
                 </picture>
-                <h3 class="cs-title">Weeding</h3>
-                <p class="cs-item-text">
-                  Looking to clear out some pesky weeds and trees? Look no further!
-                </p>
-                <span class="cs-fake-link">
+                <h3 class="cs-title">Building furniture</h3>
+                <!--<p class="cs-item-text">
+                 
+                </p>-->
+                <span class="cs-fake-link" style="margin-top: 30px;">
                     Get Started
                     <img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/gold-chevron-right.svg" alt="" width="20" height="20" loading="lazy" decoding="async" aria-hidden="true">
                 </span>
@@ -261,86 +218,42 @@
         </li>
 
 
-                
+
         <li class="cs-item">
           <a href="tel:{{client.phoneForTel}}" class="cs-link">
               <picture class="cs-picture">
                   <!--Mobile Image-->
-                  <source media="(max-width: 600px)" srcset="/assets/images/service_bush.jpeg">
+                  <source media="(max-width: 600px)" srcset="/assets/images/tv14.jpg">
                   <!--Tablet and above Image-->
-                  <source media="(min-width: 601px)" srcset="/assets/images/service_bush.jpeg">
-                  <img loading="lazy" decoding="async" src="/assets/images/service_bush.jpeg" alt="room" width="413" height="420">
+                  <source media="(min-width: 601px)" srcset="/assets/images/tv14.jpg">
+                  <img loading="lazy" decoding="async" src="/assets/images/tv14.jpg" alt="room" width="413" height="420">
               </picture>
-              <h3 class="cs-title">Bush Trimming</h3>
-              <p class="cs-item-text">
-                For all your bush trimming needs, contact us at 248-818-1130
- to book your appointment.
-              </p>
-              <span class="cs-fake-link">
+              <h3 class="cs-title">TV Mounting</h3>
+              <!--<p class="cs-item-text">
+               
+              </p>-->
+              <span class="cs-fake-link" style="margin-top: 30px;">
                   Get Started
                   <img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/gold-chevron-right.svg" alt="" width="20" height="20" loading="lazy" decoding="async" aria-hidden="true">
               </span>
           </a>
       </li>
 
-        
-        <li class="cs-item">
-          <a href="tel:{{client.phoneForTel}}" class="cs-link">
-              <picture class="cs-picture">
-                  <!--Mobile Image-->
-                  <source media="(max-width: 600px)" srcset="/assets/images/service4.jpeg">
-                  <!--Tablet and above Image-->
-                  <source media="(min-width: 601px)" srcset="/assets/images/service4.jpeg">
-                  <img loading="lazy" decoding="async" src="/assets/images/service4.jpeg" alt="room" width="413" height="420">
-              </picture>
-              <h3 class="cs-title">Soil Leveling</h3>
-              <p class="cs-item-text">
-                If you are in need of soil leveling in your yard, call Junky Rabbit at 248-818-1130.
-              </p>
-              <span class="cs-fake-link">
-                  Get Started
-                  <img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/gold-chevron-right.svg" alt="" width="20" height="20" loading="lazy" decoding="async" aria-hidden="true">
-              </span>
-          </a>
-      </li>
 
       <li class="cs-item">
         <a href="tel:{{client.phoneForTel}}" class="cs-link">
             <picture class="cs-picture">
                 <!--Mobile Image-->
-                <source media="(max-width: 600px)" srcset="/assets/images/service5.jpeg">
+                <source media="(max-width: 600px)" srcset="/assets/images/drywall.jpg">
                 <!--Tablet and above Image-->
-                <source media="(min-width: 601px)" srcset="/assets/images/service5.jpeg">
-                <img loading="lazy" decoding="async" src="/assets/images/service5.jpeg" alt="room" width="413" height="420">
+                <source media="(min-width: 601px)" srcset="/assets/images/drywall.jpg">
+                <img loading="lazy" decoding="async" src="/assets/images/drywall.jpg" alt="room" width="413" height="420">
             </picture>
-            <h3 class="cs-title">Moving</h3>
-            <p class="cs-item-text">
-              Looking for help with moving? Give us a call or send a text to 248-818-1130
- for affordable and reliable services. We're here to make your life easier!
-            </p>
-            <span class="cs-fake-link">
-                Get Started
-                <img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/gold-chevron-right.svg" alt="" width="20" height="20" loading="lazy" decoding="async" aria-hidden="true">
-            </span>
-        </a>
-    </li>
-
-      
-      <li class="cs-item">
-        <a href="tel:{{client.phoneForTel}}" class="cs-link">
-            <picture class="cs-picture">
-                <!--Mobile Image-->
-                <source media="(max-width: 600px)" srcset="/assets/images/junk.jpeg">
-                <!--Tablet and above Image-->
-                <source media="(min-width: 601px)" srcset="/assets/images/junk.jpeg">
-                <img loading="lazy" decoding="async" src="/assets/images/junk.jpeg" alt="room" width="413" height="420">
-            </picture>
-            <h3 class="cs-title">Junk Removal</h3>
-            <p class="cs-item-text">
-              Looking for help with getting rid of some junk? Give us a call or send a text to 248-818-1130
- for affordable and reliable services. We're here to make your life easier!
-            </p>
-            <span class="cs-fake-link">
+            <h3 class="cs-title">Drywall</h3>
+            <!--<p class="cs-item-text">
+             
+            </p>-->
+            <span class="cs-fake-link" style="margin-top: 30px;">
                 Get Started
                 <img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/gold-chevron-right.svg" alt="" width="20" height="20" loading="lazy" decoding="async" aria-hidden="true">
             </span>
@@ -348,26 +261,139 @@
     </li>
 
 
-    
     <li class="cs-item">
       <a href="tel:{{client.phoneForTel}}" class="cs-link">
           <picture class="cs-picture">
               <!--Mobile Image-->
-              <source media="(max-width: 600px)" srcset="/assets/images/service6.jpeg">
+              <source media="(max-width: 600px)" srcset="/assets/images/framing.jpg">
               <!--Tablet and above Image-->
-              <source media="(min-width: 601px)" srcset="/assets/images/service6.jpeg">
-              <img loading="lazy" decoding="async" src="/assets/images/service6.jpeg" alt="room" width="413" height="420">
+              <source media="(min-width: 601px)" srcset="/assets/images/framing.jpg">
+              <img loading="lazy" decoding="async" src="/assets/images/framing.jpg" alt="room" width="413" height="420">
           </picture>
-          <h3 class="cs-title">Painting</h3>
-          <p class="cs-item-text">
-            Looking to add some color to your living space? We've got a great deal on paint specials for the rest of the month - just $180 per bedroom! 
-          </p>
-          <span class="cs-fake-link">
+          <h3 class="cs-title">Framing & Carpentry</h3>
+          <!--<p class="cs-item-text">
+           
+          </p>-->
+          <span class="cs-fake-link" style="margin-top: 30px;">
               Get Started
               <img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/gold-chevron-right.svg" alt="" width="20" height="20" loading="lazy" decoding="async" aria-hidden="true">
           </span>
       </a>
   </li>
+
+  
+  <li class="cs-item">
+    <a href="tel:{{client.phoneForTel}}" class="cs-link">
+        <picture class="cs-picture">
+            <!--Mobile Image-->
+            <source media="(max-width: 600px)" srcset="/assets/images/painting.jpg">
+            <!--Tablet and above Image-->
+            <source media="(min-width: 601px)" srcset="/assets/images/painting.jpg">
+            <img loading="lazy" decoding="async" src="/assets/images/painting.jpg" alt="room" width="413" height="420">
+        </picture>
+        <h3 class="cs-title">Painting</h3>
+        <!--<p class="cs-item-text">
+         
+        </p>-->
+        <span class="cs-fake-link" style="margin-top: 30px;">
+            Get Started
+            <img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/gold-chevron-right.svg" alt="" width="20" height="20" loading="lazy" decoding="async" aria-hidden="true">
+        </span>
+    </a>
+</li>
+
+
+
+<li class="cs-item">
+  <a href="tel:{{client.phoneForTel}}" class="cs-link">
+      <picture class="cs-picture">
+          <!--Mobile Image-->
+          <source media="(max-width: 600px)" srcset="/assets/images/custom.jpg">
+          <!--Tablet and above Image-->
+          <source media="(min-width: 601px)" srcset="/assets/images/custom.jpg">
+          <img loading="lazy" decoding="async" src="/assets/images/custom.jpg" alt="room" width="413" height="420">
+      </picture>
+      <h3 class="cs-title">Custom Accent Walls</h3>
+      <!--<p class="cs-item-text">
+       
+      </p>-->
+      <span class="cs-fake-link" style="margin-top: 30px;">
+          Get Started
+          <img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/gold-chevron-right.svg" alt="" width="20" height="20" loading="lazy" decoding="async" aria-hidden="true">
+      </span>
+  </a>
+</li>
+
+
+
+
+<li class="cs-item">
+  <a href="tel:{{client.phoneForTel}}" class="cs-link">
+      <picture class="cs-picture">
+          <!--Mobile Image-->
+          <source media="(max-width: 600px)" srcset="/assets/images/lights.jpg">
+          <!--Tablet and above Image-->
+          <source media="(min-width: 601px)" srcset="/assets/images/lights.jpg">
+          <img loading="lazy" decoding="async" src="/assets/images/lights.jpg" alt="room" width="413" height="420">
+      </picture>
+      <h3 class="cs-title">Light Fixture Install</h3>
+      <!--<p class="cs-item-text">
+       
+      </p>-->
+      <span class="cs-fake-link" style="margin-top: 30px;">
+          Get Started
+          <img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/gold-chevron-right.svg" alt="" width="20" height="20" loading="lazy" decoding="async" aria-hidden="true">
+      </span>
+  </a>
+</li>
+
+
+
+
+<li class="cs-item">
+  <a href="tel:{{client.phoneForTel}}" class="cs-link">
+      <picture class="cs-picture">
+          <!--Mobile Image-->
+          <source media="(max-width: 600px)" srcset="/assets/images/moving.jpg">
+          <!--Tablet and above Image-->
+          <source media="(min-width: 601px)" srcset="/assets/images/moving.jpg">
+          <img loading="lazy" decoding="async" src="/assets/images/moving.jpg" alt="room" width="413" height="420">
+      </picture>
+      <h3 class="cs-title">Moving</h3>
+      <!--<p class="cs-item-text">
+       
+      </p>-->
+      <span class="cs-fake-link" style="margin-top: 30px;">
+          Get Started
+          <img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/gold-chevron-right.svg" alt="" width="20" height="20" loading="lazy" decoding="async" aria-hidden="true">
+      </span>
+  </a>
+</li>
+
+
+
+<li class="cs-item">
+  <a href="tel:{{client.phoneForTel}}" class="cs-link">
+      <picture class="cs-picture">
+          <!--Mobile Image-->
+          <source media="(max-width: 600px)" srcset="/assets/images/demo.jpg">
+          <!--Tablet and above Image-->
+          <source media="(min-width: 601px)" srcset="/assets/images/demo.jpg">
+          <img loading="lazy" decoding="async" src="/assets/images/demo.jpg" alt="room" width="413" height="420">
+      </picture>
+      <h3 class="cs-title">Demolition</h3>
+      <!--<p class="cs-item-text">
+       
+      </p>-->
+      <span class="cs-fake-link" style="margin-top: 30px;">
+          Get Started
+          <img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/gold-chevron-right.svg" alt="" width="20" height="20" loading="lazy" decoding="async" aria-hidden="true">
+      </span>
+  </a>
+</li>
+            
+
+
 
         </ul>
     </div>
