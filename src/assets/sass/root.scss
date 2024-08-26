@@ -1184,13 +1184,13 @@
 @media only screen and (min-width: 0em) {
     #footer {
         background: #000;
-        padding: calc(84 / 16 * 1rem) 0 calc(20 / 16 * 1rem);
+        padding: calc(84 / 16 * 1rem) 1.5rem calc(20 / 16 * 1rem);
         font-size: min(4vw, 1.2em);
 
         .left-section {
             margin: auto;
             margin-bottom: calc(50 / 16 * 1rem);
-            text-align: center;
+            text-align: left;
             .logo {
                 display: inline-block;
                 margin: auto;
